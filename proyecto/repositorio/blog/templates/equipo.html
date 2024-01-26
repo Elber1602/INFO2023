@@ -1,0 +1,43 @@
+
+{% load static %}
+{% block titulo %}GRUPO 10{% endblock titulo %}
+{% block contenido %}
+    <h1>INTEGRANTES DE NUESTRO EQUIPO DE TRABAJO</h1>
+<p style="color:rgb(204, 255, 0);background-color: blueviolet;">Rafael, Ramiro, Gustavo, Delia, Mirta, Sebastian, Viviana</p>
+    <img src="{% static 'img/equipo.jpg' %}" >
+    <img src="{% static 'img/imagen3.jpg' %}" >
+
+
+
+
+
+
+
+{% endblock contenido %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    
+</head>
+<body class="custom-btn">
+  
+    <a href="{% url 'nosotros' %}">IR A RECETAS</a>
+    <a href="{% url 'home' %}">VOLVER AL INICIO</a>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="contenedor">
+    
+</body>
+</html>
